@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:jokes_app_clean_architecture/core/resources/data_state.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/domain/entities/joke.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/domain/usecases/get_joke.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/presentation/bloc/jokes/remote/joke_event.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/presentation/bloc/jokes/remote/joke_state.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/domain/entities/joke.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/domain/usecases/get_joke.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/presentation/bloc/jokes/remote/joke_event.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/presentation/bloc/jokes/remote/joke_state.dart';
 import 'dart:math' as math;
 
 import 'package:shared_preferences/shared_preferences.dart';

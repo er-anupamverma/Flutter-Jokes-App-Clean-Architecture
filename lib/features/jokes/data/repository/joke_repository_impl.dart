@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/data/models/joke.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/data/models/joke.dart';
 import 'package:jokes_app_clean_architecture/core/resources/data_state.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/domain/repository/joke_repository.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/domain/repository/joke_repository.dart';
 
 import '../data_sources/remote/jokes_api_service.dart';
 

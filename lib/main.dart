@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:jokes_app_clean_architecture/config/routes/routes.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/presentation/bloc/jokes/remote/joke_bloc.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/presentation/bloc/jokes/remote/joke_event.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/presentation/pages/home/jokes.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/presentation/bloc/jokes/remote/joke_bloc.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/presentation/bloc/jokes/remote/joke_event.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/presentation/pages/home/jokes.dart';
 import 'config/theme/app_themes.dart';
 import 'injection_container.dart';
 

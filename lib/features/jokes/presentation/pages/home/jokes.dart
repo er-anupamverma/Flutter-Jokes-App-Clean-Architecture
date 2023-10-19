@@ -2,9 +2,9 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/presentation/bloc/jokes/remote/joke_bloc.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/presentation/bloc/jokes/remote/joke_event.dart';
-import 'package:jokes_app_clean_architecture/features/daily_news/presentation/bloc/jokes/remote/joke_state.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/presentation/bloc/jokes/remote/joke_bloc.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/presentation/bloc/jokes/remote/joke_event.dart';
+import 'package:jokes_app_clean_architecture/features/jokes/presentation/bloc/jokes/remote/joke_state.dart';
 import '../../widgets/joke_widget.dart';
 
 class Jokes extends StatelessWidget {

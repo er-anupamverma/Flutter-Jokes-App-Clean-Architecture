@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../features/daily_news/presentation/pages/home/jokes.dart';
+import '../../features/jokes/presentation/pages/home/jokes.dart';
 
 class AppRoutes {
   static Route onGenerateRoutes(RouteSettings settings) {
